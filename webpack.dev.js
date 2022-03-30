@@ -9,7 +9,7 @@ module.exports = merge(common, {
 
   devServer: {
     static: {
-      directory: path.resolve(__dirname, 'app'),
+      directory: path.resolve(__dirname, '/dist'),
     },
   },
 

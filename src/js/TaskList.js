@@ -1,5 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-unused-expressions */
 export default class TaskList {
   constructor() {
     this.input = document.querySelector('.task-input');
