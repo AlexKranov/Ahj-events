@@ -8,11 +8,9 @@ module.exports = merge(common, {
   devtool: 'inline-source-map',
 
   devServer: {
-    historyApiFallback: true,
-    contentBase: path.resolve(__dirname, '/dist'),
-    open: true,
-    compress: true,
-    port: 8888,
+    static: {
+      directory: path.resolve(__dirname, 'app'),
+    },
   },
 
   plugins: [
