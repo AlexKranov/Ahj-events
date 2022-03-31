@@ -1,4 +1,4 @@
-/*eslint linebreak-style: ["error", "windows"]*/
+/* eslint-disable linebreak-style */
 /* eslint-disable no-unused-expressions */
 export default class TaskList {
   constructor() {
